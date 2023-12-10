@@ -15,7 +15,7 @@
 
 
 <div align="center">
-    <img src='assets/img/fig_method.png'/>
+    <img src='images/STEM_DDIM_inv.png'/>
 </div>
 
 ## 🦴 Abstract
