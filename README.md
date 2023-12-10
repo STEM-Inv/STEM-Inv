@@ -1,4 +1,4 @@
-# stem-inv
+# A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing
 
 [Maomao Li](https://scholar.google.com/citations?user=ym_t6QYAAAAJ&hl=en&oi=ao), 
 [Yu Li](https://yu-li.github.io/), 
