@@ -17,11 +17,14 @@
 <div align="center">
     <img src='images/STEM_DDIM_inv.png'/>
 </div>
+The illustration of the proposed STEM inversion method. We estimate a more compact representation (bases $\bm{\mu}$) for the input video via the EM algorithm. The ST-E step and ST-M step are executed alternately for $R$ times until convergence. The Self-attention (SA) in our STEM inversion are denoted as STEM-SA, where the $\rm{Key}$ and $\rm{Value}$ embeddings are  derived by projections of the converged $\bm{\mu}$
+
+
 
 ## 🦴 Abstract
 
 ### TL;DR: A Spatial-Temporal Expectation-Maximization (STEM) inversion method for zero-shot video editing
-
+This paper presents a video inversion approach for zero-shot video editing, which aims to model the input video with low-rank representation during the inversion process. The existing video editing methods usually apply the typical 2D DDIM inversion or naive spatial-temporal DDIM inversion before editing, which leverages time-varying representation for each frame to derive noisy latent. Unlike most existing approaches, we propose a Spatial-Temporal Expectation-Maximization (STEM) inversion, which formulates the dense video feature under an expectation-maximization manner and iteratively estimates a more compact basis set to represent the whole video. Each frame applies the fixed and global representation for inversion, which is more friendly for temporal consistency during reconstruction and editing. Extensive qualitative and quantitative experiments demonstrate that our STEM inversion can achieve consistent improvement on two state-of-the-art video editing methods.
 
 ## 📋 Changelog
 
