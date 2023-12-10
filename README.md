@@ -26,7 +26,7 @@ We present a video inversion approach for zero-shot video editing, which aims to
 <div align="center">
     <img src='images/STEM_DDIM_inv.png'/>
 </div>
-The illustration of the proposed STEM inversion method. We estimate a more compact representation (bases $\bm{\mu}$) for the input video via the EM algorithm. The ST-E step and ST-M step are executed alternately for $R$ times until convergence. The Self-attention (SA) in our STEM inversion are denoted as STEM-SA, where the $\rm{Key}$ and $\rm{Value}$ embeddings are  derived by projections of the converged $\bm{\mu}$.
+The illustration of the proposed STEM inversion method. We estimate a more compact representation (bases $$\bm{\mu}$$) for the input video via the EM algorithm. The ST-E step and ST-M step are executed alternately for $R$ times until convergence. The Self-attention (SA) in our STEM inversion are denoted as STEM-SA, where the $\rm{Key}$ and $\rm{Value}$ embeddings are  derived by projections of the converged $\bm{\mu}$.
 
 ## 📋 Changelog
 
