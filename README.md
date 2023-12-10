@@ -51,6 +51,6 @@
 
 ## 📣 Disclaimer
 
-This is an official product of STEM Inversion.
+This is an official code of STEM Inversion.
 All the copyrights of the demo images and audio are from community users. 
 Feel free to contact us if you would like remove them.
