@@ -9,7 +9,7 @@
 [Dong Xu](https://scholar.google.com/citations?user=7Hdu5k4AAAAJ&hl=en&oi=ao)
 
 
-<a href='https://arxiv.org/abs/2310.15081'><img src='https://img.shields.io/badge/ArXiv-2310.15081-red'></a> 
+<a href='https://arxiv.org/abs/2310.15081'><img src='https://img.shields.io/badge/ArXiv-2312.05856-red'></a> 
 <a href='https://stem-inv.github.io/page/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 [![GitHub](https://img.shields.io/github/stars/STEM-Inv/stem-inv.svg?style=social&label=Stars)](https://github.com/STEM-Inv/stem-inv)
 
@@ -46,11 +46,11 @@ The illustration of the proposed STEM inversion method. We estimate a more compa
 ## 📎 Citation 
 
 ```
-@misc{xxxx
+@misc{stem-inv
     Author = {Maomao Li, Yu Li, Tianyu Yang, Yunfei Liu, Dongxu Yue, Zhihui Lin, and Dong Xu},
     Title = {A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing},
     Year = {2023},
-    Eprint = {arXiv:xxxx},
+    Eprint = {arxiv:2312.05856},
 }
 ``` 
 
