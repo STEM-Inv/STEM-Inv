@@ -4,7 +4,7 @@
 [Yu Li](https://yu-li.github.io/), 
 [Tianyu Yang](https://tianyu-yang.com), 
 [Yunfei Liu](https://scholar.google.com/citations?user=B1Z1vTMAAAAJ&hl=zh-CN), 
-[Dongxu Yue], 
+Dongxu Yue, 
 [Zhihui Lin](https://scholar.google.com.hk/citations?hl=zh-CN&user=t4et8FEAAAAJ), 
 [Dong Xu](https://scholar.google.com/citations?user=7Hdu5k4AAAAJ&hl=en&oi=ao)
 
