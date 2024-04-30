@@ -1,4 +1,4 @@
-# A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing
+# A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing, CVPR 2024
 
 [Maomao Li](https://scholar.google.com/citations?user=ym_t6QYAAAAJ&hl=en&oi=ao), 
 [Yu Li](https://yu-li.github.io/), 
@@ -33,13 +33,44 @@ The illustration of the proposed STEM inversion method. We estimate a more compa
 
 ## 📋 Changelog
 
-- **2023.12.11** Code and paper are released!
+- **2023.12.11** Paper is released! 
+- **2024.05.01** The code based on TokenFlow editing is released!
 
 ## 🏗️ Todo
 
-- [x] Release the project page
-- [ ] Release the code
+- [x] Release the STEM inversion code
+- [ ] Release the code based on FateZero editing
 
+
+## ▶️ Quick Start for TokenFlow video editing using STEM inversion
+### Environment
+Prepare the Conda environment using the following commands:
+```bash
+git clone https://github.com/STEM-Inv/stem-inv
+cd STEM
+cd TokenFlow-Edit
+conda create -n stem-tf python=3.9
+conda activate stem-tf
+pip install -r requirements.txt
+```
+
+
+### Video Editing
+We provide demo source videos in the ```data``` folder. 
+The corresponding config for STEM Inversion and Editing is in the ```configs``` folder. 
+Below are the instructions for performing video editing on the provided source videos. 
+You can run the following command to perform inversion and editing process at once:
+```bash
+bash run_editing.sh
+```
+The inversion results are saved in ```Stem_Inv_Latents/base_256_iter_5```, and the editing results are saved in ```STEM_TF_results```.
+
+
+
+If you are only interested the reconstruction results of STEM inversion, please run:
+```bash
+bash run_inversion.sh
+```
 
 
 
@@ -49,12 +80,10 @@ The illustration of the proposed STEM inversion method. We estimate a more compa
 @misc{stem-inv
     Author = {Maomao Li, Yu Li, Tianyu Yang, Yunfei Liu, Dongxu Yue, Zhihui Lin, and Dong Xu},
     Title = {A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing},
-    Year = {2023},
-    Eprint = {arxiv:2312.05856},
+    Year = {2024},
+    Eprint = {CVPR},
 }
 ``` 
-
-
 
 
 ## 📣 Disclaimer
@@ -62,3 +91,10 @@ The illustration of the proposed STEM inversion method. We estimate a more compa
 This is official code of STEM Inversion.
 All the copyrights of the demo images and audio are from community users. 
 Feel free to contact us if you would like remove them.
+
+## 💞 Acknowledgements
+The code is built upon the below repositories, we thank all the contributors for open-sourcing.
+* [TokenFlow](https://github.com/omerbt/TokenFlow)
+
+
+
