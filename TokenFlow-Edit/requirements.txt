@@ -1,5 +1,5 @@
 pillow
-diffusers
+diffusers==0.20.2
 ftfy
 transformers
 opencv-python 
@@ -10,6 +10,6 @@ accelerate
 xformers
 tensorboard
 av
-torchvision
+torchvision==0.16.2
 kornia
 easydict
