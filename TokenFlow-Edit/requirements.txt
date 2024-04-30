@@ -12,3 +12,4 @@ tensorboard
 av
 torchvision
 kornia
+easydict
