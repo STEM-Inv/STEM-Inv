@@ -77,11 +77,11 @@ bash run_inversion.sh
 ## 📎 Citation 
 
 ```
-@misc{stem-inv
-    Author = {Maomao Li, Yu Li, Tianyu Yang, Yunfei Liu, Dongxu Yue, Zhihui Lin, and Dong Xu},
-    Title = {A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing},
-    Year = {2024},
-    Eprint = {CVPR},
+@article{li2023video,
+  title={A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing},
+  author={Li, Maomao and Li, Yu and Yang, Tianyu and Liu, Yunfei and Yue, Dongxu and Lin, Zhihui and Xu, Dong},
+  journal={arXiv preprint arXiv:2312.05856},
+  year={2023}
 }
 ``` 
 
