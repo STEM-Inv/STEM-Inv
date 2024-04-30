@@ -1,0 +1,25 @@
+# general
+seed: 1
+device: 'cuda'
+output_path: 'STEM_TF_results'
+
+# data
+data_path: 'data/taylor.mp4'
+width: 640
+height: 360
+latents_path: 'Stem_Inv_Latents/base_256_iter_5' # should be the same as 'save_dir' arg used in preprocess
+n_inversion_steps: 50 # for retrieving the latents of the inversion
+n_frames: 48
+inversion_prompt: 'A beautiful girl tilted her head'
+
+# diffusion
+sd_version: '1.5'
+guidance_scale: 7.5
+n_timesteps: 50
+prompt: 'A beautiful girl tilted her head, Miyazaki Hayao style'
+negative_prompt: "ugly, blurry, low res, unrealistic, unaesthetic"
+batch_size: 8
+
+# pnp params -- injection thresholds ∈ [0, 1]
+pnp_attn_t: 0.5
+pnp_f_t: 0.8
