@@ -72,6 +72,7 @@ If you are only interested the reconstruction results of STEM inversion, please 
 bash run_inversion.sh
 ```
 
+Note that our default setting is to use 256 bases to represent the whole input video, where 5 iterations are applied for EM algorithm convergence. You can also consider other configurations by modifying the values of “num_bases” and "n_iters" in line 88 of tokenflow_utils.py.
 
 
 ## 📎 Citation 
