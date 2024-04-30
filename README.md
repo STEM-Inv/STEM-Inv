@@ -86,11 +86,14 @@ bash run_inversion.sh
 ``` 
 
 
+
 ## 📣 Disclaimer
 
 This is official code of STEM Inversion.
 All the copyrights of the demo images and audio are from community users. 
 Feel free to contact us if you would like remove them.
+
+
 
 ## 💞 Acknowledgements
 The code is built upon the below repositories, we thank all the contributors for open-sourcing.
