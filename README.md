@@ -15,7 +15,7 @@ Dongxu Yue,
 
 
 ![teaser](assets/examples/reconstruction.gif)
-DDIM inversion in existing video editing methods usually exploits 1-frame or 2-frame context to invert each frame. Thus, we design a more radical inflated DDIM inversion that uses all-frame context as reference. Here, we use the typical DDIM reconstruction method to provide a video reconstruction comparison, where both our STEM inversion and the radical inflated DDIM one can explore context from the entire video, while the resource-consuming latter yields inferior performance.
+Reconstruction comparison between DDIM and STEM inversion. DDIM inversion in existing video editing methods usually exploits 1-frame or 2-frame context to invert each frame. Thus, we design a more radical inflated DDIM inversion that uses all-frame context as reference. Here, we use the typical DDIM reconstruction method to provide a video reconstruction comparison, where both our STEM inversion and the radical inflated DDIM one can explore context from the entire video, while the resource-consuming latter yields inferior performance.
 
 ## 🦴 Abstract
 <b>TL; DR:</b> STEM inversion is a efficient video inversion method for text-guided video editing.
