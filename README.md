@@ -14,7 +14,7 @@ Dongxu Yue,
 [![GitHub](https://img.shields.io/github/stars/STEM-Inv/stem-inv?style=social)](https://github.com/STEM-Inv/stem-inv)
 
 
-
+![teaser](assets/examples/reconstruction.gif)
 
 ## 🦴 Abstract
 <b>TL; DR:</b> STEM inversion is a efficient video inversion method for text-guided video editing.
