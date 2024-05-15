@@ -48,7 +48,7 @@ The illustration of the proposed STEM inversion method. We estimate a more compa
 Prepare the Conda environment using the following commands:
 ```bash
 git clone https://github.com/STEM-Inv/stem-inv
-cd stem-inv
+cd STEM-Inv
 cd TokenFlow-Edit
 conda create -n stem-tf python=3.9
 conda activate stem-tf
