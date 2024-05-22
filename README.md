@@ -9,7 +9,7 @@ Dongxu Yue,
 [Dong Xu](https://scholar.google.com/citations?user=7Hdu5k4AAAAJ&hl=en&oi=ao)
 
 
-<a href='https://arxiv.org/abs/2310.15081'><img src='https://img.shields.io/badge/ArXiv-2312.05856-red'></a> 
+<a href='https://arxiv.org/abs/2312.05856'><img src='https://img.shields.io/badge/ArXiv-2312.05856-red'></a> 
 <a href='https://stem-inv.github.io/page/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 [![GitHub](https://img.shields.io/github/stars/STEM-Inv/stem-inv?style=social)](https://github.com/STEM-Inv/stem-inv)
 
