@@ -75,6 +75,16 @@ bash run_inversion.sh
 
 Note that our default setting is to use 256 bases to represent the whole input video, where 5 iterations are applied for EM algorithm convergence. You can also consider other configurations by modifying the values of “num_bases” and "n_iters" in line 88 of tokenflow_utils.py.
 
+## 📜 Editing result
+<table>
+<tr>
+  <td><img src="assets/examples/editing_example.gif"></td>
+</tr>
+<tr>
+  <td width=100% style="text-align:center;">Source: A man is playing tennis. Target: Spider-Man is playing tennis.</td>
+</tr>
+</table>
+
 
 ## 📎 Citation 
 
