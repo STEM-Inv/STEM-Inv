@@ -81,7 +81,7 @@ Note that our default setting is to use 256 bases to represent the whole input v
   <td><img src="assets/examples/editing_example.gif"></td>
 </tr>
 <tr>
-  <td width=100% style="text-align:center;">Source prompt: A man is playing tennis.    &nbsp;&nbsp;&nbsp;&nbsp;             Target prompt: Spider-Man is playing tennis.</td>
+  <td width=100% style="center;">Source prompt: A man is playing tennis.    &nbsp;&nbsp;&nbsp;&nbsp;             Target prompt: Spider-Man is playing tennis.</td>
 </tr>
 </table>
 
