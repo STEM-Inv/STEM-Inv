@@ -66,7 +66,7 @@ class Preprocess(nn.Module):
             from diffusers import ControlNetModel, StableDiffusionControlNetPipeline
             controlnet = ControlNetModel.from_pretrained("lllyasviel/sd-controlnet-canny", torch_dtype=torch.float16).to(self.device)
             control_pipe = StableDiffusionControlNetPipeline.from_pretrained(
-                "/cto_studio/vistring/limaomao/Lab/ControlVideo/checkpoints/stable-diffusion-v1-5", controlnet=controlnet, torch_dtype=torch.float16
+                "runwayml/stable-diffusion-v1-5", controlnet=controlnet, torch_dtype=torch.float16
             ).to(self.device)
             self.unet = control_pipe.unet
             self.controlnet = control_pipe.controlnet
