@@ -5,4 +5,4 @@ export HUGGINGFACE_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # inversion 
 python preprocess.py \
-  --config_path ./configs/config_pnp_wolf.yaml
+  --config_path ./configs/config_pnp_tennis.yaml
