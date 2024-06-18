@@ -89,11 +89,12 @@ Note that our default setting is to use 256 bases to represent the whole input v
 ## 📎 Citation 
 
 ```
-@article{li2023video,
+@inproceedings{li2024video,
   title={A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing},
   author={Li, Maomao and Li, Yu and Yang, Tianyu and Liu, Yunfei and Yue, Dongxu and Lin, Zhihui and Xu, Dong},
-  journal={arXiv preprint arXiv:2312.05856},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7528--7537},
+  year={2024}
 }
 ``` 
 
